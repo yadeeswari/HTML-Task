@@ -1,0 +1,22 @@
+.darkblue-white {
+    background:black;
+    color: white;
+}
+
+
+
+.container {
+    background-color:darkgrey;
+    text-align: left;
+}
+
+
+.card-body{
+    background:black;
+    color:black; 
+}
+
+#inp{
+    background:black;
+    color:black ; 
+}
