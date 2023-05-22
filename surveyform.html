@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surveyform</title>
+    <link rel="stylesheet" type="text/css" href="./style5HM.css">
+    
+  <head>
+  <title>
+            Build a Survey Form using HTML and CSS
+        </title>
+       
+    </head>
+      
+    <body>
+        <h1> <i>Skin Care Survey Form</i></h1>
+        
+        <img src="https://images.everydayhealth.com/images/what-are-natural-skin-care-products-alt-1440x810.jpg" width="500px">
+
+        <div class="form-control">
+        <label for="name" id="label-name">
+                    Name
+        </label>
+        <input type="text" id="name"
+        placeholder="Enter your name" />
+         </div>
+      
+        <div class="form-control">
+        <label for="email" id="label-email">
+                    Email
+         </label>
+         <input type="email" id="email"
+         placeholder="Enter your email" />
+         </div>
+      
+        <div class="form-control">
+        <label for="Age" id="label-age">
+                    Age
+        </label>
+        <input type="text"  id="age"
+        placeholder="Enter your age" />
+        </div>
+
+        <div class="form-control">
+            <label for="Contact" id="label-Contact">
+                        Mobile Number
+            </label>
+            <input type="text"  id="contact"
+            placeholder="Your contact number" />
+            </div>
+      
+            <div class="form-control">
+            <label for="role" id="label-role">
+                    How did you reach us?
+            </label>
+                 
+                <!-- Dropdown options -->
+            <select name="role" id="role">
+            <option value="SocialMedia">SocialMedia</option>
+            <option value="Radio">Radio</option>
+            <option value="Friend">friend</option>
+            <option value="other">Other</option>
+            </select>
+            </div>
+      
+            <div class="form-control">
+            <label>
+                    Do you use skin care products on regular basis?
+            </label>
+            <input type="radio" id="recommed-1">Yes</input>
+            </label>
+            <input type="radio" id="recommed-2">No</input>
+            </label>
+            <input type="radio" id="recommed-3">Maybe</input>
+            </label>
+            </div>
+      
+            <div class="form-control">
+            <label>When choosing skin care products which of the following matters you?
+            <small>(Check all that apply)</small>
+            </label>
+                
+                <label for="inp-1">
+                <input type="checkbox"
+                           name="inp">Availability</input></label>
+                <label for="inp-2">
+                <input type="checkbox"
+                           name="inp">Brand</input></label>
+                <label for="inp-3">
+                <input type="checkbox"
+                           name="inp">Ingredients</input></label>
+                <label for="inp-4">
+                <input type="checkbox"
+                           name="inp">Quality</input></label>
+                <label for="inp-5">
+                <input type="checkbox"
+                           name="inp">convenience</input></label>
+                <label for="inp-6">
+                <input type="checkbox"
+                           name="inp">price</input></label>
+                <label for="inp-7">
+                <input type="checkbox"
+                           name="inp">Recommendation</input></label>
+                <label for="inp-7">
+                <input type="checkbox"
+                           name="inp">packing</input></label>
+                <label for="inp-7">
+                <input type="checkbox"
+                           name="inp">other</input></label>
+                
+            </div>
+      
+            <div class="form-control">
+            <label for="comment">
+                    Any comments or suggestions
+            </label>
+     
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment"
+                    placeholder="Enter your comment here">
+                </textarea>
+            </div>
+
+            <button type="submit" value="submit">
+                Submit here
+            </button>
+        </body>
+        </html>

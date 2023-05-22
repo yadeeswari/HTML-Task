@@ -1,0 +1,57 @@
+body {
+    background-color:lightpink;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:left;
+}
+
+
+form {
+    background-color:darksalmon;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px ;
+}
+
+
+.form-control {
+    text-align: left;
+    margin-bottom:30px;
+}
+
+
+.form-control label {
+    display:block;
+    margin-bottom: 20px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid fuchsia;
+    border-radius: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+button {
+    background-color:deeppink;
+    border: 1px solid fuchsia;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
